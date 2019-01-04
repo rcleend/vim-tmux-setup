@@ -38,6 +38,12 @@ map <C-f> :Ag <CR>
 Plugin 'https://github.com/scrooloose/nerdtree.git'
 map <silent> <C-b> :NERDTreeToggle<CR>
 
+" Airline StatusLine
+Plugin 'https://github.com/vim-airline/vim-airline.git'
+
+" Enable noshowmode for airline
+:set noshowmode
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
